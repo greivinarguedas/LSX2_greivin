@@ -1,0 +1,49 @@
+    1  ifconfig
+    2  sudo apt-get install vim-nox
+    3  sudo apt-get install git
+    4  sudo apt-get update
+    5  mkdir LSX_greivinLinux2
+    6  cd LSX_greivinLinux2/
+    7  pwd
+    8  mkdir history
+    9  vim .gitignore
+   10  sudo apt-get tree
+   11  sudo apt-get install tree
+   12  vim .gitignore
+   13  tree
+   14  ls -a
+   15  mkdir src
+   16  mkdir misc
+   17  tree
+   18  touch history/file
+   19  touch misc/file
+   20  touch src/file
+   21  tree
+   22  git init
+   23  ls -la
+   24  tree .get
+   25  tree .git
+   26  git config --global user.name "greivin"
+   27  git config --global user.mail "greivinarguedas@gmail.com"
+   28  git config --global user.mail greivinarguedas@gmail.com
+   29  pwd
+   30  cat ../ .gitconfig
+   31  cat ../.gitconfig
+   32  git status
+   33  git add .gitignore
+   34  git status
+   35  touch misc/file2
+   36  git status
+   37  git add misc
+   38  git status
+   39  git add history
+   40  git add src
+   41  git status
+   42  git commit -m "Inicio del arbol de desarrollo"
+   43  git config --global user.name "greivin"
+   44  git config --global user.mail greivinarguedas@gmail.com
+   45  git commit -m "Inicio del arbol de desarrollo"
+   46  git config --global user.email "greivinarguedas@gmail.com"
+   47  git commit -m "Inicio del arbol de desarrollo"
+   48  git log
+   49  history > history/history-$HOSTNAME- `date +%Y%m%d`
